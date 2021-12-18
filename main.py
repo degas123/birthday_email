@@ -3,7 +3,7 @@ import random
 import datetime as dt
 import pandas
 my_email = "jtt666664@gmail.com"
-password =
+password =${{ secrets.PASSWORD }}
 
 
 today=dt.datetime.now()
